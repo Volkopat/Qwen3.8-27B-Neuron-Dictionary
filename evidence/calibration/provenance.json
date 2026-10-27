@@ -1,0 +1,17 @@
+{
+  "reported_model_id": "Qwen/Qwen3.8-27B",
+  "tokens": 200704,
+  "layers": [
+    4,
+    12,
+    20,
+    32,
+    44,
+    52,
+    60,
+    63
+  ],
+  "source_summary_sha256": "61ad33c643f6fa2010ff7ed4735c528b934ac833aee5b35e8cf3418c03d03c93",
+  "calibration_maximum": "observed absolute maximum per channel; includes first positions",
+  "mean_abs_warning": "historical mean_abs divided by sequence count, not token count; do not use as a per-token average"
+}

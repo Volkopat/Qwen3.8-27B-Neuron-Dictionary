@@ -1,0 +1,105 @@
+{
+  "snapshot_date": "2026-10-27",
+  "upstream_repository": "https://github.com/lyramakesmusic/neuron-explorer",
+  "local_upstream_base_commit": "f79b2196e29aacbad89684938baac8d97b172fd1",
+  "source_files": [
+    {
+      "path": "neuron_dictionary.csv",
+      "bytes": 53670,
+      "sha256": "9b6e7dc4d07004387eca685e30e3fee844da05305097510f14703c62d35ac733"
+    },
+    {
+      "path": "neuron_examples.csv",
+      "bytes": 106452,
+      "sha256": "6cba26d260ec0a5a2a6377515c3a2e32fb023a771d15afbc767905003359ff1d"
+    },
+    {
+      "path": "changed_only.csv",
+      "bytes": 5767,
+      "sha256": "65ce835001735c7dc299dc4b1a2501e57e1a7c2b02587ef6b16158a0a727124c"
+    },
+    {
+      "path": "recipe_rows.csv",
+      "bytes": 10656,
+      "sha256": "d31dc026eb11ff9220eb5f4aa02cb2bb76b2a46fb93b8a1f1630b4ee37c14c52"
+    },
+    {
+      "path": "sweep/neuron_dictionary.py",
+      "bytes": 9166,
+      "sha256": "34815479d52a3ae625de79b8c84e7d97d19a19b24be35daa983eaf3b2246e1a9"
+    },
+    {
+      "path": "sweep/neuron_examples.py",
+      "bytes": 7884,
+      "sha256": "b91acff3f4cd56c014b5093f1498546943937cbfb589d24c40b3e84f51b6fe4b"
+    },
+    {
+      "path": "sweep/hf_calibrate.py",
+      "bytes": 10458,
+      "sha256": "58db3cc592a6f91de9f27a591bfa37d97d649b9425580feea53027830a1167f6"
+    },
+    {
+      "path": "sweep/dictionary_validate.py",
+      "bytes": 9114,
+      "sha256": "e93f284e7974d47732457099d69ec3d0b4f10ceaa8baf2a2cfc1e570a969e4b3"
+    },
+    {
+      "path": "sweep/additivity_sweep.py",
+      "bytes": 8454,
+      "sha256": "e791f84bd14c3ec1169000d2261a76d1b9c6ed25bf3ddc2c50f61ed87708d477"
+    },
+    {
+      "path": "sweep/layer_sat_frag.py",
+      "bytes": 6935,
+      "sha256": "f369f59c5251f85c8fc5e94bf55b26e20f4e6cca915c05f82133d8b8df302265"
+    },
+    {
+      "path": "research_log.md",
+      "bytes": 508814,
+      "sha256": "b6e394863b4bb162999857750fc0dd476739174340b1594009bd67e75223a398"
+    },
+    {
+      "path": "SURGERY_FINDINGS.md",
+      "bytes": 8737,
+      "sha256": "f3bd76942d4529a83a6ca8aa3a504d3492423e9df5ea08d110cd158946e9d2b0"
+    },
+    {
+      "path": "FINDINGS.md",
+      "bytes": 7575,
+      "sha256": "6c167d081e68af001d627efc9545d90da0e755cd36c16dcc70e3cbefec59fc96"
+    },
+    {
+      "path": "PAPER_OUTLINE.md",
+      "bytes": 7153,
+      "sha256": "8cfa2d832ddcd6345f82d86e6abb6e9459ef192150091d79c035e21e1e835872"
+    }
+  ],
+  "remote_recovery": {
+    "artifact_files": 253,
+    "archive_sha256": "c92dcc4d717cbefd663ec9c7bbd15bd22802d40712f11c2946f017d36fbcf129",
+    "public_subset": "four raw dictionary profiles and four calibration arrays; unrelated-model outputs excluded"
+  },
+  "checkpoint": {
+    "model_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "license": "apache-2.0",
+    "config.json": {
+      "sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "equals_recovered": true
+    },
+    "generation_config.json": {
+      "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "equals_recovered": true
+    },
+    "tokenizer_config.json": {
+      "sha256": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "equals_recovered": true
+    }
+  },
+  "source_code_included": false,
+  "independent_replay_implementation": {
+    "executed_program_sha256": "13a21354e5b99a498aefb06568aca71e3fb011cd8c8e8f107857cdc9539d4f1c",
+    "public_program": "tools/replay_dictionary.py",
+    "changes": "Public variant parameterizes model/output paths and reads bundled profile/calibration files; measurement loop unchanged."
+  }
+}

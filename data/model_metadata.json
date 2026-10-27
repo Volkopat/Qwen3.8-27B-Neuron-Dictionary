@@ -1,0 +1,26 @@
+{
+  "model_id": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "num_hidden_layers": 64,
+  "hidden_size": 5120,
+  "intermediate_size": 17408,
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "model_type": "qwen3_5",
+  "checkpoint_metadata_matches_official": true,
+  "metadata_sha256": {
+    "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+  },
+  "generation_eos_token_ids": [
+    248046,
+    248044
+  ],
+  "weight_shards_rehashed": true,
+  "historical_run_checkpoint_revision_logged": false,
+  "identity_scope": "Current checkpoint metadata and all 18 weight shards match pinned official revision. Historical per-run immutable revision receipts were not recorded.",
+  "weight_shard_count": 18,
+  "all_weight_shards_match_official": true
+}

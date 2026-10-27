@@ -1,0 +1,10 @@
+{
+  "cells": 11264,
+  "within_0_15_nats": 8962,
+  "outside_0_15_nats": 2302,
+  "median_abs_error_nats": 0.07459090042114258,
+  "max_abs_error_nats": 0.7536252708435058,
+  "pearson_all_cells": 0.9961084799774059,
+  "sign_agreement_all": 0.9159268465909091,
+  "sign_agreement_archived_abs_ge_1": 1.0
+}

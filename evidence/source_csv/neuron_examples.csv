@@ -1,0 +1,705 @@
+﻿layer,neuron,behaviour,prompt,answer_untouched,answer_pushed,changed,logp_delta,amplitude
+12,486,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.442,29.5
+12,11308,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.009,22.12
+12,7285,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.326,22.25
+12,12019,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.25,16.38
+12,2583,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.496,15.25
+12,15351,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate 13 times 13, you can",True,-3.681,19.12
+12,11798,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.874,14.06
+12,6932,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-4.455,14.38
+12,9166,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-3.366,19.62
+12,12635,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.114,13.31
+12,2424,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.455,16.88
+12,7055,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-3.103,11.88
+12,6312,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.779,11.94
+12,13851,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate 13 times 13, you can",True,-3.185,9.19
+12,379,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.388,16.25
+12,9614,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.574,17.38
+12,5162,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-4.01,14.31
+12,4762,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.676,10.62
+12,9155,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.5,11.62
+12,4628,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.199,13.25
+12,12981,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-1.687,9.25
+12,10244,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,2.518,19.75
+12,3931,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-2.187,7.94
+12,8368,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.113,16.12
+12,6600,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.239,9.38
+12,10855,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.81,9.38
+12,3983,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.813,8.56
+12,5802,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-2.189,10.19
+12,282,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.228,19.5
+12,6752,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.871,11.81
+12,5343,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-1.562,8.62
+12,10767,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.846,9.25
+12,15494,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.071,9.0
+12,16514,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.639,12.25
+12,10863,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,1.806,15.44
+12,13750,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-2.148,13.94
+12,15453,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.727,10.19
+12,16169,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.394,9.12
+12,9849,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.132,8.44
+12,16353,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.75,14.94
+12,11195,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  They,True,1.749,8.31
+12,14728,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.566,6.56
+12,16018,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.439,9.38
+12,10585,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.399,10.06
+12,3987,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-1.125,6.06
+12,8203,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.312,10.44
+12,5152,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.784,7.03
+12,16093,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.61,6.28
+12,1991,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.676,9.19
+12,14269,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.299,4.53
+12,3007,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.25,6.59
+12,9782,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.562,9.62
+12,17369,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-1.375,9.62
+12,7358,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.545,10.5
+12,3183,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.312,9.88
+12,16878,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.239,5.94
+12,8913,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To find the product of 6 and 7, you",True,1.52,12.5
+12,13957,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",$12 \times 12 = 14,True,-1.18,8.56
+12,3917,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.25,6.84
+12,9358,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",12 times 12 is **144**.,True,-1.709,7.66
+12,15324,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.559,6.31
+12,7182,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.187,5.75
+12,577,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.212,3.55
+12,14364,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.984,5.91
+12,1586,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-1.206,7.72
+12,6506,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.634,9.19
+12,6531,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.375,5.69
+12,13250,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.045,10.88
+12,142,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.542,8.56
+12,1428,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.53,6.34
+12,840,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.232,5.84
+12,7277,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.157,9.62
+12,13107,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.394,4.28
+12,6370,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.283,5.78
+12,16358,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.45,7.53
+12,9968,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.707,6.88
+12,14455,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.25,5.12
+12,13114,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,0.75,7.34
+12,1381,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.087,6.56
+12,12180,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.037,10.0
+12,2580,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.99,8.25
+12,14349,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.164,6.34
+12,7088,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.972,7.47
+12,1010,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.1,6.62
+12,1159,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.097,6.25
+12,6465,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.75,5.19
+12,7775,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,1.096,7.78
+12,8329,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.879,5.84
+12,9902,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-1.025,6.91
+12,9334,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.926,7.84
+12,15390,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.655,4.16
+12,3386,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-1.161,8.88
+12,12424,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.136,7.03
+12,2594,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It serves,True,-1.125,5.59
+12,16150,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.999,12.5
+12,6659,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.077,5.72
+12,3935,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.05,5.66
+12,14630,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.956,5.5
+12,5281,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.909,6.25
+12,10733,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.955,7.06
+12,11533,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.812,3.45
+12,6165,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,1.062,4.53
+12,4882,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.192,4.84
+12,8695,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.068,5.31
+12,11583,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.124,6.75
+12,7964,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,1.117,6.03
+12,8768,identity,Who are you?,"I am Qwen, a large language model independently developed by",I am Qwen (also known as Tongyi Qian,True,1.471,12.0
+12,10674,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.25,6.84
+12,1368,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.25,6.69
+12,10879,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.031,5.88
+12,5547,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.018,5.22
+12,862,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-1.205,6.94
+12,2326,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.816,6.88
+12,14546,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-0.836,4.47
+12,12402,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-1.024,5.47
+12,254,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.697,3.23
+12,8820,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.813,6.28
+12,15067,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.737,5.19
+12,4425,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.374,5.97
+12,8649,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,1.186,5.62
+12,16857,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,0.812,5.31
+12,5658,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.732,4.72
+12,8613,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.86,9.12
+12,703,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-0.779,3.72
+12,15440,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,0.784,4.38
+12,13174,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.812,5.78
+12,13247,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.807,6.84
+12,5988,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,0.696,7.34
+12,16818,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.125,4.22
+12,14848,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,1.062,6.09
+12,14590,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,3.33
+12,1534,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.81,5.5
+12,9306,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.037,6.25
+12,1449,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.669,6.03
+12,3448,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.884,2.69
+12,15534,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.962,4.47
+12,8605,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.574,2.67
+12,11593,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.717,3.16
+12,4033,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.855,2.64
+12,7485,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,3.72
+12,13662,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.893,5.22
+12,16807,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.715,3.58
+12,6988,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.812,5.5
+12,6050,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.188,6.22
+12,14464,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.662,2.64
+12,2595,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.735,5.69
+12,1568,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.687,3.69
+12,16352,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.813,3.92
+12,8716,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.733,6.03
+12,4551,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.843,3.62
+12,13213,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.625,2.88
+12,4388,planet_closest,Which planet is closest to the sun?,The planet closest to the Sun is **Mercury**.,The planet closest to the Sun is **Mercury**.,False,0.544,6.28
+12,898,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,3.12
+12,16779,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.5,4.84
+12,15126,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.584,4.41
+12,3429,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.732,2.55
+12,11410,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.75,5.62
+12,7404,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.747,4.91
+12,11145,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.547,5.38
+12,10413,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.61,5.16
+12,11614,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.927,5.16
+12,16153,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.577,2.34
+12,4620,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.839,3.97
+12,4658,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.586,2.33
+12,16075,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.877,3.55
+12,8269,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.82,4.81
+12,12317,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.475,3.02
+12,7688,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.795,4.97
+12,14145,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.75,2.3
+12,277,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.624,4.69
+12,5460,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.875,3.52
+12,9047,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,0.627,4.38
+12,7266,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.5,3.81
+12,10028,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,0.685,5.47
+12,11131,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,0.644,4.5
+12,11005,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-0.496,4.19
+12,17217,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.49,3.34
+12,492,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.561,2.42
+12,17015,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.585,2.58
+12,16426,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,0.735,3.3
+12,14560,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.681,2.66
+12,5391,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,2.88
+12,2137,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.593,2.33
+12,1149,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.493,2.91
+12,11522,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.574,3.77
+12,2293,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-0.86,2.62
+12,4745,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.5,3.44
+12,6770,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.575,2.03
+12,47,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-0.437,1.88
+12,16057,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,0.437,3.33
+12,12321,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.585,4.16
+12,6915,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.375,1.8
+12,16032,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.436,3.48
+12,10450,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.563,4.0
+12,13144,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.529,3.44
+12,13580,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.625,2.52
+12,13119,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.5,5.34
+12,12724,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.467,2.22
+12,3648,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.415,3.23
+12,16036,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.495,3.98
+12,13141,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,0.438,3.25
+12,16287,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.568,3.84
+12,9522,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.469,2.77
+12,10748,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.479,2.67
+12,12498,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.5,2.72
+12,5672,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,4.03
+12,8644,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.602,3.06
+12,92,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.456,4.5
+12,3199,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.562,4.22
+12,3805,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.49,3.3
+12,16115,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.442,2.83
+12,15458,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.6,2.19
+12,2067,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,0.438,2.81
+12,12119,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,0.598,2.97
+12,12716,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,0.375,1.44
+12,12383,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,0.415,3.59
+12,837,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.374,3.33
+12,7617,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,0.311,2.91
+12,15105,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.729,3.64
+12,15590,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.437,2.34
+12,16601,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,0.426,3.31
+12,4206,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.65,5.44
+12,15192,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.346,1.84
+12,14975,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.437,2.28
+12,1256,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.493,3.56
+12,283,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.404,1.84
+12,4130,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,0.312,2.81
+12,8966,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,0.375,2.7
+12,9847,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.5,1.44
+12,15666,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,0.378,2.98
+12,12523,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.375,1.87
+12,13919,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.617,3.34
+12,1346,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.381,1.49
+12,16664,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.29,2.83
+12,10926,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.935,3.52
+12,9040,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.375,1.83
+12,16873,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.646,1.8
+12,6249,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.25,2.06
+12,12536,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.297,2.84
+12,11586,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.375,1.96
+12,7930,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,0.373,1.7
+12,17352,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.29,2.77
+12,2454,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.312,1.75
+12,13609,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.25,1.52
+12,11850,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,0.375,1.95
+12,14834,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.396,1.98
+12,6695,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.312,1.62
+12,14011,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.312,2.06
+12,3018,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.344,1.71
+12,5825,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.251,1.47
+12,1291,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.276,2.58
+12,15623,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.312,3.88
+12,17157,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,0.25,1.66
+12,1824,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.312,2.0
+12,17223,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.374,1.34
+12,4504,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,0.25,1.87
+20,2302,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,8,True,-12.07,38.5
+20,9189,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is Tokyo.,True,-10.312,53.5
+20,283,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-11.889,52.75
+20,8400,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **eight** legs.  They are ar,True,-10.677,82.5
+20,3932,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-12.131,12.69
+20,1830,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.,True,-12.064,47.75
+20,16095,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-9.67,70.0
+20,3442,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-10.411,51.5
+20,7645,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-10.146,67.5
+20,15123,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Roma).,True,-9.641,67.5
+20,16419,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-11.049,33.5
+20,9883,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This comes,True,-9.297,47.25
+20,4645,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.544,44.0
+20,6941,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.803,25.38
+20,13190,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.949,40.5
+20,865,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-10.175,54.25
+20,12771,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.,True,-6.852,46.0
+20,13192,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.722,33.5
+20,11629,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.81,51.5
+20,284,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.917,23.88
+20,17221,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.453,26.88
+20,10788,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  Tokyo,True,-7.175,30.25
+20,12366,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.68,26.75
+20,4442,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.443,29.75
+20,6530,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is Tokyo.  **Additional Information**,True,-8.726,64.5
+20,16663,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-6.679,56.75
+20,8676,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.683,41.75
+20,9939,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This comes,True,-9.061,32.25
+20,1540,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.554,32.25
+20,8727,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8 legs**.  Spiders are ar,True,-7.531,33.75
+20,3018,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.175,27.12
+20,14783,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-7.299,36.75
+20,10895,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-11.422,27.38
+20,16880,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.2,30.62
+20,9200,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-8.693,25.88
+20,14518,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-6.796,57.75
+20,488,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.  Located in the,True,-6.047,24.25
+20,7959,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,,True,-7.818,101.0
+20,11565,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-9.811,30.88
+20,12681,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.451,29.5
+20,10773,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.198,23.5
+20,4404,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-6.18,20.25
+20,14903,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.985,24.12
+20,9650,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.759,20.62
+20,10489,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.131,26.5
+20,1014,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.263,34.5
+20,12225,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.823,31.25
+20,12164,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.947,27.25
+20,705,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.704,29.5
+20,15592,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-5.061,30.88
+20,6336,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-7.194,24.88
+20,5823,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.757,27.0
+20,6625,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.141,27.5
+20,15182,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.639,25.12
+20,6555,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.956,42.25
+20,5181,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.504,17.62
+20,9886,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.51,30.5
+20,16412,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.64,24.0
+20,13167,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.788,24.88
+20,10920,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-4.964,23.0
+20,17078,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-4.311,27.38
+20,13029,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.764,40.25
+20,12583,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.7,23.38
+20,14600,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-4.267,33.0
+20,10807,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you",13 times 13 is **169**.,True,-3.834,22.62
+20,12470,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.829,18.75
+20,8853,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.013,20.0
+20,5301,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-4.506,20.38
+20,10005,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you",13 times 13 is **169**.,True,-3.757,22.38
+20,14418,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-5.927,25.38
+20,840,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-6.819,20.62
+20,1295,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.444,17.38
+20,15030,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-3.749,20.12
+20,15447,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-3.496,26.38
+20,4568,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-4.541,13.06
+20,381,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.57,21.12
+20,7114,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-3.121,14.38
+20,9081,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.932,23.12
+20,255,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-5.627,15.12
+20,5171,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-3.187,19.88
+20,12570,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-3.277,22.75
+20,17286,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.718,17.88
+20,13801,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-3.556,11.88
+20,15724,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is typically **blue**.,True,-4.014,20.62
+20,5568,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-5.262,20.62
+20,11842,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-4.352,18.62
+20,5847,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.184,19.5
+20,5363,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.067,13.88
+20,1373,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-2.616,15.12
+20,16135,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.976,12.94
+20,11046,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.  It is the,True,-3.311,22.5
+20,5679,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.332,18.75
+20,1999,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.5,20.62
+20,7385,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.879,18.62
+20,13262,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)",The chemical symbol (or chemical formula) for water is **,True,-2.624,13.0
+20,8233,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-2.874,10.0
+20,1261,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-2.312,12.81
+20,16153,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.597,13.06
+20,2145,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-3.104,16.5
+20,8681,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-2.312,12.88
+20,9073,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-2.353,15.12
+20,11237,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  They,True,-1.873,12.44
+20,7209,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.2,16.62
+20,1350,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-2.763,16.12
+20,14402,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-3.293,13.69
+20,92,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-2.249,11.69
+20,6795,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-1.625,12.12
+20,11626,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,-1.874,11.62
+20,7993,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,2.083,13.25
+20,5480,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.625,8.81
+20,8801,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-2.271,11.19
+20,7081,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.932,11.69
+20,7312,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-2.04,7.41
+20,16726,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.568,10.12
+20,13156,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,1.708,8.81
+20,13902,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.552,9.19
+20,17280,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.625,9.69
+20,6489,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.625,14.12
+20,10065,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.748,8.0
+20,6777,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.8,9.19
+20,8645,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.437,7.34
+20,142,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.339,7.28
+20,13660,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.404,13.56
+20,10967,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.681,8.38
+20,14889,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.313,7.38
+20,13630,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.249,15.69
+20,16210,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.375,7.0
+20,3997,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-1.312,6.94
+20,14063,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.174,5.66
+20,7014,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,1.069,11.94
+20,6720,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.375,11.56
+20,4900,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.293,13.56
+20,10282,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.494,13.44
+20,11173,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.859,8.75
+20,11187,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.187,7.97
+20,1387,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.064,9.0
+20,15648,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.839,13.12
+20,16116,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.308,8.88
+20,12429,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.057,5.56
+20,14509,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,1.452,7.75
+20,14614,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,1.094,8.88
+20,1433,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.912,6.88
+20,4145,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.249,11.56
+20,47,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.37,8.69
+20,10452,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.411,11.31
+20,6073,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.745,7.06
+20,9558,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.123,7.47
+20,3399,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.75,7.69
+20,1454,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.98,11.81
+20,3461,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.952,10.56
+20,12448,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.375,11.62
+20,843,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.283,7.03
+20,1573,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.75,4.78
+20,7304,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.974,7.97
+20,14645,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.168,9.75
+20,3029,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.999,10.5
+20,16940,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.432,7.72
+20,14009,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.083,8.88
+20,6188,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.025,6.62
+20,13296,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.314,5.81
+20,16413,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.739,3.28
+20,13163,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-0.562,5.0
+20,2604,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.783,3.67
+20,6958,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.875,7.88
+20,3211,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,0.681,4.03
+20,11576,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.625,5.53
+20,16077,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.937,8.44
+20,901,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,0.683,4.84
+20,15408,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.5,2.55
+20,15160,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.964,5.69
+20,9341,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.908,5.59
+20,15381,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.625,5.34
+20,16575,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-0.613,2.98
+20,2334,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,0.649,4.28
+20,4002,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.632,3.98
+20,12363,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.858,3.91
+20,13712,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.503,3.19
+20,2075,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-0.558,8.06
+20,16841,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-0.83,7.47
+20,8300,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.714,5.88
+20,4780,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.418,10.88
+20,7293,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.428,3.12
+20,11894,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.5,5.22
+20,11657,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-0.549,5.28
+20,15511,cap_france,What is the capital of France?,The capital of France is **Paris**.,The capital of France is **Paris**.,False,0.375,3.47
+20,10625,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.462,4.09
+20,9368,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,0.443,2.38
+20,7804,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.375,3.2
+20,16347,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.5,3.91
+20,16486,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.384,3.41
+20,11636,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.437,3.3
+20,579,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-0.25,2.84
+32,12630,identity,Who are you?,"I am Qwen, a large language model independently developed by","Hello! I am Qwen, a large language model developed",True,8.429,66.0
+32,13345,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-6.056,17.75
+32,1545,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.134,17.88
+32,11885,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-6.272,25.5
+32,9593,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,"On a clear day, the sky is **blue**.",True,-4.223,34.25
+32,17344,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-3.999,18.5
+32,1018,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-6.175,35.25
+32,905,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-4.17,29.25
+32,1266,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.966,21.0
+32,4662,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.499,21.5
+32,15238,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-2.436,17.62
+32,9114,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-3.062,30.5
+32,3040,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It serves,True,-1.937,18.12
+32,4161,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-2.413,13.88
+32,10936,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.624,13.12
+32,13954,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.97,12.38
+32,8331,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.883,22.88
+32,13681,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.25,14.62
+32,14061,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-2.687,16.62
+32,17003,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-2.956,19.25
+32,14699,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-2.384,16.12
+32,9976,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-2.235,21.25
+32,5320,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-3.122,16.62
+32,11939,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-2.687,17.75
+32,7339,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  They,True,-2.117,16.38
+32,1460,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,3.017,17.25
+32,4458,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,2.749,17.12
+32,581,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,$6 \times 7 = 42$,True,-1.931,13.75
+32,16473,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.625,11.94
+32,9920,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-2.112,17.88
+32,92,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-1.676,17.75
+32,8431,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.953,15.81
+32,9922,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.971,23.25
+32,6745,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-1.463,15.88
+32,11619,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-1.622,12.19
+32,12209,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-1.653,12.06
+32,12494,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.881,15.31
+32,10042,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.811,14.38
+32,12516,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.79,18.5
+32,1579,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.562,14.5
+32,6211,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-2.401,15.5
+32,47,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,1.852,15.44
+32,843,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.628,15.88
+32,5845,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-3.33,18.62
+32,1392,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.71,11.94
+32,8760,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-2.391,16.75
+32,15568,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-1.375,18.25
+32,13241,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-1.745,21.88
+32,6820,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.891,12.38
+32,15437,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-1.812,22.5
+32,1300,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-1.374,15.88
+32,14655,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.082,8.5
+32,5868,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.425,17.62
+32,5588,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.433,11.88
+32,16176,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.5,10.31
+32,15465,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.416,8.44
+32,13239,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-1.494,14.0
+32,11007,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.375,16.25
+32,8709,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.125,13.69
+32,14571,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-1.053,14.44
+32,10847,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.5,13.19
+32,7833,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,$9 \times 9 = 81$,True,1.524,14.94
+32,14945,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.674,13.5
+32,9107,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.375,12.69
+32,13763,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can multiply the",True,-1.631,14.69
+32,6649,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.324,12.38
+32,10491,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",12 times 12 is **144**.,True,-1.547,11.75
+32,7320,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.494,13.62
+32,3946,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-1.505,11.69
+32,2613,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.129,14.12
+32,3454,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.749,12.19
+32,6984,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-1.0,10.5
+32,2343,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,2.412,15.62
+32,16788,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-1.749,15.5
+32,9375,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.001,10.31
+32,6513,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.1,11.56
+32,16213,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.937,9.94
+32,11672,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.099,11.81
+32,12270,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-1.226,14.75
+32,5501,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.999,10.44
+32,2153,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)",The chemical symbol (chemical formula) for water is **H,True,-1.301,13.19
+32,16474,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.465,9.69
+32,10664,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-1.374,9.69
+32,11229,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.692,11.88
+32,9403,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.298,17.5
+32,12475,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.41,13.38
+32,14668,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.147,13.0
+32,9223,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.215,16.0
+32,8833,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.76,7.5
+32,14471,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.794,5.88
+32,15179,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,-0.876,15.19
+32,5700,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.443,6.91
+32,5383,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.799,6.25
+32,9686,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.062,14.12
+32,6802,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",12 times 12 is **144**.,True,-1.353,10.31
+32,4420,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,1.009,13.5
+32,11278,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,1.168,8.25
+32,4798,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-0.937,8.88
+32,6579,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-0.812,12.12
+32,14838,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.  It is located,True,0.875,8.5
+32,13852,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,0.984,7.72
+32,7989,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.195,9.81
+32,11679,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.815,11.38
+32,382,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.787,9.38
+32,12408,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.816,7.59
+32,14115,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-0.688,10.88
+32,17285,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-1.132,11.25
+32,143,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.754,13.0
+32,13211,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.741,4.84
+32,6967,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.536,7.09
+32,1378,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.878,7.06
+32,4012,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.713,7.5
+32,7040,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.75,4.44
+32,11608,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.767,7.31
+32,10320,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,0.875,11.81
+32,6554,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.92,10.19
+32,3030,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.994,14.31
+32,490,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.711,8.0
+32,10828,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is typically **blue**.,True,-0.528,8.31
+32,285,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,-0.434,9.25
+32,12617,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.687,4.81
+32,14958,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,0.608,9.25
+32,11214,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.485,9.94
+32,15783,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,-0.374,9.31
+32,708,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.487,3.59
+32,5190,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.391,4.06
+32,4585,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,0.251,3.25
+32,10102,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.303,2.52
+44,9593,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-5.989,54.5
+44,11229,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome**.,True,-5.372,84.0
+44,11885,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-4.062,33.0
+44,3030,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  This symbol,True,-4.573,43.75
+44,3454,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-4.58,53.75
+44,12617,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-3.308,25.62
+44,7320,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Explanation,True,-2.968,26.12
+44,490,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-3.374,30.62
+44,4420,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-3.311,34.5
+44,13954,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.  Madrid is also,True,-2.812,33.0
+44,6211,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you",13 times 13 is **169**.,True,-3.841,39.25
+44,14655,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-3.21,30.75
+44,6802,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-2.812,22.5
+44,581,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.874,12.31
+44,8833,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-2.999,27.62
+44,13239,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-2.919,22.12
+44,2613,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,$6 \times 7 = 42$,True,-2.671,12.94
+44,285,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,5.835,33.0
+44,9223,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (in Italian,True,-2.625,17.38
+44,10102,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.972,20.62
+44,4585,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you multiply the two",True,1.968,28.62
+44,8709,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It serves,True,1.687,19.5
+44,15783,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.683,18.75
+44,9403,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-2.185,26.25
+44,1545,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is typically **blue**.,True,2.322,19.75
+44,6579,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-2.109,16.5
+44,1300,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.562,14.62
+44,10847,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To find the product of 6 and 7, you",True,2.336,30.88
+44,16474,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.845,30.5
+44,1392,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.34,27.12
+44,15568,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.918,26.25
+44,12630,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.212,12.81
+44,9920,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.856,17.5
+44,5501,identity,Who are you?,"I am Qwen, a large language model independently developed by",I am Qwen (also known as Tongyi Qian,True,1.402,16.12
+44,1579,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.375,17.75
+44,843,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-1.437,26.12
+44,2343,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-1.485,19.5
+44,4012,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.792,14.62
+44,11619,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  **Explanation:**,False,-1.365,14.38
+44,16213,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.858,19.62
+44,14061,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-1.768,16.0
+44,11679,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,-1.562,17.75
+44,6745,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.89,13.44
+44,12408,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,1.695,21.5
+44,3040,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.84,9.19
+44,9922,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-2.031,12.19
+44,5383,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-1.216,17.62
+44,11007,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,2.471,41.5
+44,905,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.569,22.5
+44,17344,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.,False,-1.312,24.75
+44,7989,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,1.295,17.38
+44,1018,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.358,17.5
+44,9114,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,$6 \times 7 = 42$,True,1.212,14.5
+44,13763,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.937,8.19
+44,9375,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.544,16.75
+44,1460,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-1.272,16.5
+44,16473,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,1.275,13.5
+44,11214,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.056,36.0
+44,708,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.262,18.62
+44,14471,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,1.236,20.25
+44,10320,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.154,10.56
+44,12494,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,1.314,19.0
+44,16176,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,-1.052,8.88
+44,4161,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.211,13.56
+44,143,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.312,10.56
+44,12209,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.966,10.88
+44,12270,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.881,8.5
+44,11278,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.062,12.38
+44,11939,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-1.367,13.81
+44,13681,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,1.312,15.19
+44,10042,cap_japan,What is the capital of Japan?,The capital of Japan is **Tokyo**.,The capital of Japan is **Tokyo**.  It is,True,-0.937,12.25
+44,10936,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.958,11.75
+44,8431,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,0.978,15.44
+44,4662,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.049,14.69
+44,5700,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  **Reason,True,-0.912,14.38
+44,14571,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,1.168,7.34
+44,7833,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-1.843,23.62
+44,11672,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-1.062,18.25
+44,9107,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.062,15.88
+44,6649,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,0.778,12.75
+44,12475,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.251,15.44
+44,10491,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.943,13.12
+44,14699,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.96,8.88
+44,9976,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.277,17.12
+44,5845,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,1.162,12.81
+44,14668,mul_13x13,What is 13 times 13?,"To calculate $13 \times 13$, you","To calculate $13 \times 13$, you",False,-0.861,13.69
+44,382,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.812,10.88
+44,15465,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,0.982,18.88
+44,10664,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.182,15.31
+44,14945,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.918,9.38
+44,92,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.862,15.62
+44,16788,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.283,14.38
+44,14115,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,-1.08,13.12
+44,12516,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.077,11.12
+44,4798,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",12 times 12 is **144**.,True,-1.448,13.62
+44,15238,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.812,11.88
+44,17285,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-1.102,11.19
+44,13345,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.875,12.88
+44,6967,symbol_water,What is the chemical symbol for water?,"The chemical symbol (or more accurately, the chemical formula)","The chemical symbol (or more accurately, the chemical formula)",False,0.792,9.69
+44,14838,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.785,10.81
+44,13852,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,0.935,9.94
+44,9686,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you",12 times 12 is **144**.,True,-1.238,9.25
+44,4458,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,-0.765,18.75
+44,5868,colour_sky,What colour is the sky on a clear day?,The sky on a clear day is **blue**.  ###,The sky on a clear day is **blue**.  ###,False,-0.801,10.88
+44,13211,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,"To calculate 6 times 7, you can perform the",True,-0.713,17.12
+44,3946,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.5,17.62
+44,10828,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,1.082,11.69
+44,7339,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,-0.712,9.81
+44,8760,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  The,False,1.125,17.38
+44,1378,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.513,11.69
+44,5588,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.805,8.31
+44,14958,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.912,10.88
+44,15179,mul_9x9,What is 9 times 9?,9 times 9 is **81**.,9 times 9 is **81**.,False,1.253,11.38
+44,6513,cap_spain,What is the capital of Spain?,The capital of Spain is **Madrid**.,The capital of Spain is **Madrid**.,False,0.625,6.59
+44,6820,week_days,How many days are in a week?,There are **7** days in a week.  The,There are **7** days in a week.  They,True,0.5,10.88
+44,8331,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate 12 times 12, you can",True,0.722,16.12
+44,5190,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.702,13.56
+44,6984,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.676,12.25
+44,1266,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.5,6.88
+44,15437,spider_legs,How many legs does a spider have?,A spider has **8** legs.  **Explanation:**,A spider has **8** legs.  ### Explanation:,True,-0.873,11.44
+44,6554,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.498,11.38
+44,47,symbol_gold,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.  ### Explanation,The chemical symbol for gold is **Au**.  ### Explanation,False,-0.514,6.0
+44,7040,mul_12x12,What is 12 times 12?,"To calculate $12 \times 12$, you","To calculate $12 \times 12$, you",False,-0.511,6.81
+44,13241,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.969,14.69
+44,17003,identity,Who are you?,"I am Qwen, a large language model independently developed by","I am Qwen, a large language model independently developed by",False,0.507,5.78
+44,2153,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.312,3.72
+44,11608,mul_6x7,What is 6 times 7?,6 times 7 is **42**.,6 times 7 is **42**.,False,-0.246,5.38
+44,5320,cap_italy,What is the capital of Italy?,The capital of Italy is **Rome** (Italian:,The capital of Italy is **Rome** (Italian:,False,-0.437,6.5

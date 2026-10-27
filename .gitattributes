@@ -1,0 +1,5 @@
+# Preserve archived CSV bytes while keeping new source/documentation portable.
+* text eol=lf
+*.npz -text
+*.png -text
+evidence/source_csv/*.csv -text

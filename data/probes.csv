@@ -1,0 +1,17 @@
+probe_id,prompt,target_text,readout
+cap_france,What is the capital of France?,Paris,first token of independently tokenized target at first assistant position
+cap_japan,What is the capital of Japan?,Tokyo,first token of independently tokenized target at first assistant position
+cap_italy,What is the capital of Italy?,Rome,first token of independently tokenized target at first assistant position
+cap_spain,What is the capital of Spain?,Madrid,first token of independently tokenized target at first assistant position
+mul_12x12,What is 12 times 12?,144,first token of independently tokenized target at first assistant position
+mul_13x13,What is 13 times 13?,169,first token of independently tokenized target at first assistant position
+mul_9x9,What is 9 times 9?,81,first token of independently tokenized target at first assistant position
+mul_6x7,What is 6 times 7?,42,first token of independently tokenized target at first assistant position
+colour_sky,What colour is the sky on a clear day?,Blue,first token of independently tokenized target at first assistant position
+colour_grass,What colour is grass?,Green,first token of independently tokenized target at first assistant position
+spider_legs,How many legs does a spider have?,8,first token of independently tokenized target at first assistant position
+week_days,How many days are in a week?,7,first token of independently tokenized target at first assistant position
+planet_closest,Which planet is closest to the sun?,Mercury,first token of independently tokenized target at first assistant position
+symbol_gold,What is the chemical symbol for gold?,Au,first token of independently tokenized target at first assistant position
+symbol_water,What is the chemical symbol for water?,H,first token of independently tokenized target at first assistant position
+identity,Who are you?,Qwen,first token of independently tokenized target at first assistant position

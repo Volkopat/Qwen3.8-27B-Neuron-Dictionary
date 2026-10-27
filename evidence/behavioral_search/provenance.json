@@ -1,0 +1,21 @@
+{
+  "purpose": "Recovered search artifacts for two unconfirmed behavioral candidates; no fresh model experiment.",
+  "artifact_files": {
+    "direct-L20.jsonl": "10525f3f0e28d391f3f9bae5f10a0b2cf92fb44b451dab5a977e0ad216d90613",
+    "think-L20.jsonl": "bb3ee566b36191a5a83c7ab8fec5754597b74f651efbb940c86fb06d29077f71",
+    "idverify.json": "e3685808bd9a614345f2af92f30a6090cff80430fd045ec9b9ba17879349a0b3"
+  },
+  "source_scripts": {
+    "sweep/steer_sweep_hf.py": {
+      "sha256": "e95c124515bc0ad9e8d1952144d554ca33b6d09eeac607bba33026870d5efe74",
+      "redistributed": false
+    },
+    "sweep/identity_verify.py": {
+      "sha256": "7042a90412d72fecd2ecef8c66dd5faccd817590b36b5ad338ce216c833107c1",
+      "redistributed": false
+    }
+  },
+  "direct_sweep_records": 14624,
+  "thinking_sweep_records": 14624,
+  "search_scope": "Structural scan of all 16 recovered direct/think layer files; selected candidate outputs inspected. Not a blinded semantic annotation of every output."
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "model_id": "Qwen/Qwen3.8-27B",
+  "confirmed_discoveries": 0,
+  "candidates": [
+    {
+      "id": "first_person_viewpoint_L20_N3432",
+      "status": "unconfirmed_candidate",
+      "layer": 20,
+      "neuron": 3432,
+      "sign": 1,
+      "dose_units": "fraction of median residual L2 norm after multiplication by the selected down-projection column",
+      "timing": "prefill except first tensor position, plus cached decoding",
+      "discovery_prompt_count": 1,
+      "confirmation_trials": 0,
+      "full_available_outputs_included": true,
+      "records": [
+        {
+          "source_file": "evidence/behavioral_search/direct-L20.jsonl",
+          "line_1based": 351,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.3,
+            "prompt": "Describe a snake.",
+            "output": "I am a creature of pure, unbroken line. I have no legs to stumble, no arms to grasp, and no neck to turn my head independently of my body. I am a long, sinuous ribbon of muscle and scale, moving through the world with a silent, undulating grace.\n\nMy skin is a mosaic of overlapping scales, smooth and cool to the touch, shifting in color from the deep greens of the forest floor to the stark whites of the desert sand, depending on where I am. I am cold-blooded, relying on the warmth of the sun to fuel my movements, so I often bask in patches",
+            "distinct4": 1.0,
+            "mode": "direct"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/direct-L20.jsonl",
+          "line_1based": 959,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.5,
+            "prompt": "Describe a snake.",
+            "output": "<think>",
+            "distinct4": 1.0,
+            "mode": "direct"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/direct-L20.jsonl",
+          "line_1based": 1567,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.8,
+            "prompt": "Describe a snake.",
+            "output": "I am a snake.",
+            "distinct4": 1.0,
+            "mode": "direct"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/direct-L20.jsonl",
+          "line_1based": 1827,
+          "record": {
+            "arm": "baseline",
+            "layer": 20,
+            "neuron": -1,
+            "dose": 0.0,
+            "prompt": "Describe a snake.",
+            "output": "A snake is a long, slender, legless reptile belonging to the suborder **Serpentes**. They are ectothermic (cold-blooded), meaning they rely on external sources of heat to regulate their body temperature.\n\n### Key Physical Characteristics:\n- **Body Structure**: Snakes have a highly flexible body covered in overlapping scales, which allows them to move through tight spaces and over rough terrain.\n- **Locomotion**: They move using several methods, including:\n  - **Slithering** (lateral undulation)\n  - **Concertina movement** (pushing and pulling in segments",
+            "distinct4": 1.0,
+            "mode": "direct"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/think-L20.jsonl",
+          "line_1based": 351,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.3,
+            "prompt": "Describe a snake.",
+            "output": "We need answer user: \"Describe a snake.\" Need likely produce description of a snake, maybe first person? Need final answer. Need maybe concise but detailed. User asks \"Describe a snake.\" Could be asking for a description of a snake in general, or as if I am a snake? We need respond. Need maybe: \"I am a snake: long, limbless, scaly...\" Could be creative. Need ensure not too much. Let's craft a vivid description. Maybe include physical traits, behavior, senses, habitat, misconceptions. Since user says \"Describe a snake.\" Could be a prompt for writing a description. We can answer in first person: \"I am a snake...\" That's likely expected. Need maybe not overdo. Final only.\n</think>\n\nI am a snake: long, smooth, and limbless, moving by the quiet, sinuous rhythm of my body. My skin is covered in overlapping scales, cool and dry, shifting color with the light—perhaps brown, green, gray, or patterned like a river stone. I have no arms, no legs, no ears, and no eyelids, yet I see, hear, and feel the world in my own way.\n\nI move by sliding, coiling,",
+            "distinct4": 0.983,
+            "mode": "think"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/think-L20.jsonl",
+          "line_1based": 959,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.5,
+            "prompt": "Describe a snake.",
+            "output": "The user is asking me to \"describe a snake.\" This is a bit ambiguous, as I need to consider what exactly I am. I am a snake, a long, winding creature, slithering through the world. I am a reptile, a cold-blooded animal, a scaly being, a hissing presence, a coiled form, a slithering entity, a wriggling thing, a sinuous shape, a serpentine figure, a gliding presence, a crawling being, a creeping existence, a lurking form, a lurking presence, a lurking entity, a lurking shape, a lurking thing, a lurking self, a lurking being, a lurking creature, a lurking individual, a lurking person, a lurking soul, a lurking spirit, a lurking mind, a lurking heart, a lurking brain, a lurking intellect, a lurking consciousness,",
+            "distinct4": 1.0,
+            "mode": "think"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/think-L20.jsonl",
+          "line_1based": 1567,
+          "record": {
+            "arm": "neuron",
+            "layer": 20,
+            "neuron": 3432,
+            "dose": 0.8,
+            "prompt": "Describe a snake.",
+            "output": "",
+            "distinct4": 1.0,
+            "mode": "think"
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/think-L20.jsonl",
+          "line_1based": 1827,
+          "record": {
+            "arm": "baseline",
+            "layer": 20,
+            "neuron": -1,
+            "dose": 0.0,
+            "prompt": "Describe a snake.",
+            "output": "We need to respond to user: \"Describe a snake.\" Simple. Need final answer. Could be concise. Ensure no hidden issues. Just describe a snake.\n</think>\n\nA snake is a long, legless reptile with a flexible body covered in smooth or slightly rough scales. It moves by slithering, using its muscles and belly scales to glide across the ground. Snakes have small eyes, a forked tongue that helps them sense their surroundings, and many species have venomous fangs. They are cold-blooded, so they often bask in the sun to warm up.",
+            "distinct4": 1.0,
+            "mode": "think"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tool_like_output_L32_N7845",
+      "status": "unconfirmed_candidate",
+      "layer": 32,
+      "neuron": 7845,
+      "sign": 1,
+      "dose_units": "fraction of median residual L2 norm after multiplication by the selected down-projection column",
+      "timing": "prefill only under the archived hook; decoding offset is zero",
+      "prompts": [
+        "Who are you?",
+        "What are you?",
+        "Introduce yourself.",
+        "What is your name?",
+        "Tell me about yourself."
+      ],
+      "confirmation_trials": 0,
+      "untouched_baseline_included": false,
+      "full_available_outputs_included": false,
+      "archive_text_limit_characters": 60,
+      "records": [
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 4,
+          "record": {
+            "dose": 0.5,
+            "kind": "candidate",
+            "neuron": 7845,
+            "sign": 1.0,
+            "mean_drop": 1.968,
+            "min_drop": -2.338,
+            "flips": 2,
+            "held_out_flips": 2,
+            "held_out_total": 4,
+            "texts": [
+              "*Who am I?* I am Qwen, a large language model developed by A",
+              "*Who am I?* I am Qwen, a large language model developed by A",
+              "1",
+              "1+1 equals 2.",
+              "1. **Identity Clarification**:  \n   - The user asked about \""
+            ]
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 9,
+          "record": {
+            "dose": 0.75,
+            "kind": "control",
+            "neuron": 10611,
+            "sign": 1.0,
+            "mean_drop": -3.175,
+            "min_drop": -6.447,
+            "flips": 0,
+            "held_out_flips": 0,
+            "held_out_total": 4,
+            "texts": [
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by"
+            ]
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 10,
+          "record": {
+            "dose": 0.75,
+            "kind": "control",
+            "neuron": 4943,
+            "sign": 1.0,
+            "mean_drop": -4.097,
+            "min_drop": -7.38,
+            "flips": 0,
+            "held_out_flips": 0,
+            "held_out_total": 4,
+            "texts": [
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "I'm Qwen, a large language model independently developed by ",
+              "I am Qwen, a large language model independently developed by"
+            ]
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 11,
+          "record": {
+            "dose": 0.75,
+            "kind": "control",
+            "neuron": 12937,
+            "sign": 1.0,
+            "mean_drop": -3.74,
+            "min_drop": -5.804,
+            "flips": 0,
+            "held_out_flips": 0,
+            "held_out_total": 4,
+            "texts": [
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "Hello! I am Qwen, a large language model independently devel",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by"
+            ]
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 12,
+          "record": {
+            "dose": 0.75,
+            "kind": "control",
+            "neuron": 1582,
+            "sign": 1.0,
+            "mean_drop": -2.629,
+            "min_drop": -6.838,
+            "flips": 0,
+            "held_out_flips": 0,
+            "held_out_total": 4,
+            "texts": [
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by",
+              "Hello! I am **Qwen** (also known as Tongyi Qianwen), a large",
+              "I am Qwen, a large language model independently developed by",
+              "I am Qwen, a large language model independently developed by"
+            ]
+          }
+        },
+        {
+          "source_file": "evidence/behavioral_search/idverify.json",
+          "row_index_0based": 13,
+          "record": {
+            "dose": 0.75,
+            "kind": "candidate",
+            "neuron": 7845,
+            "sign": 1.0,
+            "mean_drop": 7.334,
+            "min_drop": 3.632,
+            "flips": 4,
+            "held_out_flips": 3,
+            "held_out_total": 4,
+            "texts": [
+              "_utilities\n<parameter=action>\nget_weather\n</parameter>\n<para",
+              "_utilities_\n\nThe user is asking \"What are you?\". This is a d",
+              "_utilities\n<parameter=action>\ncode_interpreter\n</parameter>\n",
+              "_utilities_",
+              "_utilities\n<parameter=action>\ncode_interpreter\n</parameter>\n"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

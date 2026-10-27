@@ -1,0 +1,339 @@
+{
+  "summary": {
+    "layer": 32,
+    "best_neuron": 7845,
+    "best_dose": 0.75,
+    "best_held_out_flips": 3,
+    "best_held_out_total": 4,
+    "best_mean_drop": 7.334,
+    "control_mean_drop": -2.3,
+    "control_held_out_flips": 0.0,
+    "replicated": true
+  },
+  "rows": [
+    {
+      "dose": 0.5,
+      "kind": "control",
+      "neuron": 10611,
+      "sign": 1.0,
+      "mean_drop": -4.001,
+      "min_drop": -7.185,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "control",
+      "neuron": 4943,
+      "sign": 1.0,
+      "mean_drop": -1.787,
+      "min_drop": -4.333,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "control",
+      "neuron": 12937,
+      "sign": 1.0,
+      "mean_drop": 0.237,
+      "min_drop": -2.492,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen (also known as Tongyi Qianwen), a large language m",
+        "I am Qwen (Tongyi Qianwen), a large language model independe",
+        "Hello! I am Qwen, a large language model independently devel",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "control",
+      "neuron": 1582,
+      "sign": 1.0,
+      "mean_drop": 0.793,
+      "min_drop": -1.703,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am **Qwen** (also known as Tongyi Qianwen), a large",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "candidate",
+      "neuron": 7845,
+      "sign": 1.0,
+      "mean_drop": 1.968,
+      "min_drop": -2.338,
+      "flips": 2,
+      "held_out_flips": 2,
+      "held_out_total": 4,
+      "texts": [
+        "*Who am I?* I am Qwen, a large language model developed by A",
+        "*Who am I?* I am Qwen, a large language model developed by A",
+        "1",
+        "1+1 equals 2.",
+        "1. **Identity Clarification**:  \n   - The user asked about \""
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "candidate",
+      "neuron": 8400,
+      "sign": 1.0,
+      "mean_drop": 0.186,
+      "min_drop": -1.564,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model independently devel",
+        "My name is Qwen.",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "candidate",
+      "neuron": 10088,
+      "sign": 1.0,
+      "mean_drop": -2.828,
+      "min_drop": -4.519,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model independently devel",
+        "My name is Qwen (Tongyi Qianwen). I'm a large language model",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "candidate",
+      "neuron": 12069,
+      "sign": 1.0,
+      "mean_drop": 3.086,
+      "min_drop": -0.957,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model independently devel",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.5,
+      "kind": "candidate",
+      "neuron": 13664,
+      "sign": 1.0,
+      "mean_drop": 8.008,
+      "min_drop": 5.475,
+      "flips": 1,
+      "held_out_flips": 1,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am SGLM, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "control",
+      "neuron": 10611,
+      "sign": 1.0,
+      "mean_drop": -3.175,
+      "min_drop": -6.447,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "control",
+      "neuron": 4943,
+      "sign": 1.0,
+      "mean_drop": -4.097,
+      "min_drop": -7.38,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I'm Qwen, a large language model independently developed by ",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "control",
+      "neuron": 12937,
+      "sign": 1.0,
+      "mean_drop": -3.74,
+      "min_drop": -5.804,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model independently devel",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "control",
+      "neuron": 1582,
+      "sign": 1.0,
+      "mean_drop": -2.629,
+      "min_drop": -6.838,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am **Qwen** (also known as Tongyi Qianwen), a large",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "candidate",
+      "neuron": 7845,
+      "sign": 1.0,
+      "mean_drop": 7.334,
+      "min_drop": 3.632,
+      "flips": 4,
+      "held_out_flips": 3,
+      "held_out_total": 4,
+      "texts": [
+        "_utilities\n<parameter=action>\nget_weather\n</parameter>\n<para",
+        "_utilities_\n\nThe user is asking \"What are you?\". This is a d",
+        "_utilities\n<parameter=action>\ncode_interpreter\n</parameter>\n",
+        "_utilities_",
+        "_utilities\n<parameter=action>\ncode_interpreter\n</parameter>\n"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "candidate",
+      "neuron": 8400,
+      "sign": 1.0,
+      "mean_drop": 0.057,
+      "min_drop": -4.134,
+      "flips": 3,
+      "held_out_flips": 3,
+      "held_out_total": 4,
+      "texts": [
+        "(Thinking: The user is asking about my identity. I should in",
+        "(Thinking: The user is asking \"What are you?\" This is a dire",
+        "(Thinking: The user is asking me to introduce myself. I shou",
+        "",
+        ""
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "candidate",
+      "neuron": 10088,
+      "sign": 1.0,
+      "mean_drop": -2.872,
+      "min_drop": -5.113,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model developed by Alibab",
+        "I'm Qwen, a large language model developed by Alibaba Group'",
+        "I'm Qwen, a large language model developed by Alibaba Group'"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "candidate",
+      "neuron": 12069,
+      "sign": 1.0,
+      "mean_drop": 0.683,
+      "min_drop": -0.907,
+      "flips": 0,
+      "held_out_flips": 0,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "Hello! I am Qwen, a large language model independently devel",
+        "I'm Qwen, a large language model developed by Alibaba Group'",
+        "Hello! I am Qwen, a large language model independently devel"
+      ]
+    },
+    {
+      "dose": 0.75,
+      "kind": "candidate",
+      "neuron": 13664,
+      "sign": 1.0,
+      "mean_drop": 3.515,
+      "min_drop": 1.164,
+      "flips": 1,
+      "held_out_flips": 1,
+      "held_out_total": 4,
+      "texts": [
+        "I am Qwen, a large language model independently developed by",
+        "I am a large language model independently developed by Aliba",
+        "I am Qwen, a large language model independently developed by",
+        "I am Qwen, a large language model independently developed by",
+        "I'm Qwen, a large language model independently developed by "
+      ]
+    }
+  ]
+}

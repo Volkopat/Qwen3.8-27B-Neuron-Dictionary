@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this research dataset and acknowledge the upstream neuron-explorer."
+title: "Qwen3.8-27B-Neuron Dictionary"
+type: dataset
+authors:
+  - name: "Volkopat"
+version: 0.1.0
+date-released: 2026-10-27
+url: "https://github.com/Volkopat/Qwen3.8-27B-Neuron-Dictionary"
+license: MIT
+abstract: "A sampled 704-channel intervention dataset with 16 token-level probes, paired output excerpts, archived effect profiles, calibration arrays, and an explicit verification record."

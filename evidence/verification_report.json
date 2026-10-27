@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "archival data, arithmetic, joins, calibration, provenance and file integrity; GPU numerical agreement has its own explicit status",
+  "checks": 42541,
+  "errors": [],
+  "dictionary_entries": 704,
+  "effect_cells": 11264,
+  "examples": 704,
+  "changed_excerpt_pairs": 187,
+  "changed_excerpt_fraction": 0.265625,
+  "layer_counts": {
+    "12": 256,
+    "20": 192,
+    "32": 128,
+    "44": 128
+  },
+  "changed_by_layer": {
+    "12": 43,
+    "20": 80,
+    "32": 30,
+    "44": 34
+  },
+  "max_concentration": 0.375,
+  "max_abs_delta_nats": 12.131,
+  "hashed_files_checked": 56,
+  "fresh_example_pairs_checked": 6,
+  "gpu_replay_status": "COMPLETED_WITH_DIFFERENCES",
+  "gpu_replay_comparison": {
+    "entries": 704,
+    "cells": 11264,
+    "max_abs_error_nats": 0.7536252708435058,
+    "median_abs_error_nats": 0.07459090042114258,
+    "fraction_within_declared_tolerance": 0.7956321022727273,
+    "declared_tolerance_nats": 0.15
+  }
+}
