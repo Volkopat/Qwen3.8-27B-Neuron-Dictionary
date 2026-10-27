@@ -1,0 +1,19 @@
+{
+  "package_sha256": "6020647b99076ceeed4befa39c676fb2e3937c1913a0ac7be1a171a7596abe68",
+  "files": {
+    "behavior_scoring.py": "aa5658eac2abc2d46d1459443a93507ca0a17ac1bafd767f27776d41e501476f",
+    "config.json": "be22ac886045683ac8db50d958e581369567a2491c0598a5819059caf8e9d7e2",
+    "deploy_runai.py": "7456d6ca9e60483eda5bb8613329bf1f04b6b28bfb328f9a313ce5f11b7092e2",
+    "interventions.py": "3b59a01eaeee4d35651d91e9508bf273bd4dbd5f84b440721d68eb2b0e742f24",
+    "launch_workers.py": "acff518ecad0f22c9068a2ccb05000bf35a5b86a8fde2b591d474c08e464d3e9",
+    "MATH_AND_PROTOCOL.md": "dee12258d3fc558557b5d805c03f53c9a4931b43155d186b251ad735b3f1b8e1",
+    "model_shards.json": "2c8826faaf39921818bc6bcd5580d5acc24fc7f4c6ba1c3c61c08a4e65a4542a",
+    "prompts.json": "f84070206d43edf99918a8aa687154588f366465a5bf5e8eccbc37b69159ec4e",
+    "README.md": "d49282524eac67fba4755e4e4eab8baf27dd6c579005784ad3b78f7f02bbef18",
+    "report_campaign.py": "5f9983c22a8e259666f6960dab94ada10e93721f4e7049742e87ce1365b7c061",
+    "run_campaign.py": "b5c7edae0bbf2cdc2e13f278f837a098522d4fbcef014afd9f60295068c9bd68",
+    "test_behavior_scoring.py": "a83618e727bbfeb8bdb7e28f692ddc3a71663be71e6c1cd2bcc306ff9575c112",
+    "test_interventions.py": "39620e7824d0f7da3279d7458cfb9101e4dcae02469f67290ab99aec8ad95e28"
+  },
+  "bytes": 46543
+}

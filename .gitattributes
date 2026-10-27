@@ -3,3 +3,5 @@
 *.npz -text
 *.png -text
 evidence/source_csv/*.csv -text
+# Preserve byte-identical frozen campaign source for provenance hashes.
+campaigns/2026-10-27/source/** -text

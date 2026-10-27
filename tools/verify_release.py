@@ -1,6 +1,6 @@
 """Verify release data and recorded provenance without loading model weights."""
 from __future__ import annotations
-import argparse,csv,hashlib,json,math,re,sys
+import argparse,csv,hashlib,importlib.util,json,math,re,sys
 from pathlib import Path
 import numpy as np
 
@@ -167,6 +167,13 @@ def verify(root=ROOT,check_hashes=True):
             derived={'cells':int(v.size),'within_0_15_nats':int((v<=.15).sum()),'outside_0_15_nats':int((v>.15).sum()),'median_abs_error_nats':float(np.median(v)),'max_abs_error_nats':float(v.max()),'pearson_all_cells':float(np.corrcoef(av.ravel(),bv.ravel())[0,1]),'sign_agreement_all':float(np.mean(np.sign(av)==np.sign(bv))),'sign_agreement_archived_abs_ge_1':float(np.mean(np.sign(av[mask])==np.sign(bv[mask])))}
             for name,value in derived.items():check(close(comparison.get(name),value,1e-9),f'replay comparison mismatch: {name}')
         replay_status='COMPLETED_WITH_DIFFERENCES' if bool((v>tol).any()) else 'COMPLETED_WITHIN_DECLARED_TOLERANCE'
+    campaign_result=None
+    if (root/'campaigns/2026-10-27/stop.json').is_file():
+        spec=importlib.util.spec_from_file_location('verify_campaign_bundle',root/'tools/verify_campaign_bundle.py')
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        campaign_result=module.verify(root)
+        check(campaign_result['status']=='PASS','campaign compact bundle audit failed')
+        for message in campaign_result['errors']:check(False,'campaign: '+message)
     hash_count=0
     if check_hashes:
         manifest_path=root/'evidence/SHA256SUMS.json'
@@ -181,7 +188,7 @@ def verify(root=ROOT,check_hashes=True):
                     check(hashlib.sha256(p.read_bytes()).hexdigest()==expected,f'hash mismatch: {name}');hash_count+=1
             candidates={str(p.relative_to(root)).replace('\\','/') for p in root.rglob('*') if p.is_file() and not any(x in {'.git','__pycache__','.pytest_cache','.venv'} for x in p.relative_to(root).parts) and str(p.relative_to(root)).replace('\\','/') not in {'evidence/SHA256SUMS.json','evidence/verification_report.json'}}
             check(candidates==set(manifest['files']),'untracked or missing release files relative to manifest')
-    return {'status':'PASS' if not errors else 'FAIL','scope':'archival data, arithmetic, joins, calibration, provenance and file integrity; GPU numerical agreement has its own explicit status','checks':checks,'errors':errors,'dictionary_entries':len(d),'effect_cells':len(cells),'examples':len(ex),'changed_excerpt_pairs':changed,'changed_excerpt_fraction':changed/len(ex),'layer_counts':counts,'changed_by_layer':changed_layers,'max_concentration':max(float(x['effect_concentration']) for x in d),'max_abs_delta_nats':max(float(x['max_abs_first_token_delta_nats']) for x in d),'hashed_files_checked':hash_count,'fresh_example_pairs_checked':fresh_examples,'gpu_replay_status':replay_status,'gpu_replay_comparison':replay_stats}
+    return {'status':'PASS' if not errors else 'FAIL','scope':'archival data, arithmetic, joins, calibration, provenance and file integrity; GPU numerical agreement has its own explicit status','checks':checks,'errors':errors,'dictionary_entries':len(d),'effect_cells':len(cells),'examples':len(ex),'changed_excerpt_pairs':changed,'changed_excerpt_fraction':changed/len(ex),'layer_counts':counts,'changed_by_layer':changed_layers,'max_concentration':max(float(x['effect_concentration']) for x in d),'max_abs_delta_nats':max(float(x['max_abs_first_token_delta_nats']) for x in d),'hashed_files_checked':hash_count,'fresh_example_pairs_checked':fresh_examples,'gpu_replay_status':replay_status,'gpu_replay_comparison':replay_stats,'campaign_bundle':campaign_result}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,default=ROOT);p.add_argument('--output',type=Path)

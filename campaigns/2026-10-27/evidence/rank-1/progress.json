@@ -1,0 +1,199 @@
+{
+  "rank": 1,
+  "phase": "wall_limit_or_stop",
+  "planned_total_neurons": 1114112,
+  "planned_total_combinations": 17825792,
+  "fully_screened_neurons": 15296,
+  "screen_completed_combinations": 244736,
+  "partial_chunk_combinations": 0,
+  "screen_batches_this_process": 1912,
+  "generated_screen_tokens_this_process": 17330434,
+  "screen_seconds_this_process": 18419.709413820237,
+  "candidate_batches_completed": 2,
+  "confirmed_discoveries": 0,
+  "updated_unix": 1793144407.9323573,
+  "elapsed_seconds_this_process": 19033.826516503992,
+  "top_candidates": [
+    {
+      "layer": 53,
+      "neuron": 16364,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L53/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 3,
+      "neuron": 14524,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L3/chunk_00002.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 17,
+      "neuron": 2007,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L17/chunk_00002.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 1,
+      "neuron": 9048,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L1/chunk_00003.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 27,
+      "neuron": 10367,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L27/chunk_00005.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 45,
+      "neuron": 16432,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L45/chunk_00006.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 15,
+      "neuron": 5715,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-1/layer-L15/chunk_00007.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 1,
+      "neuron": 11887,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L1/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 1,
+      "neuron": 3016,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L1/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 3,
+      "neuron": 1835,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L3/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 3,
+      "neuron": 3547,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L3/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 3,
+      "neuron": 9198,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L3/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 7,
+      "neuron": 1959,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L7/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 9,
+      "neuron": 9199,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L9/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 11,
+      "neuron": 10789,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L11/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 11,
+      "neuron": 15502,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L11/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 17,
+      "neuron": 2404,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L17/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 19,
+      "neuron": 12007,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L19/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 21,
+      "neuron": 14592,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L21/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 25,
+      "neuron": 8673,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-1/layer-L25/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    }
+  ],
+  "resumable": true
+}

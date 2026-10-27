@@ -1,0 +1,35 @@
+{
+  "candidate_id": "L20_N3843_minus",
+  "selected_from": {
+    "layer": 20,
+    "neuron": 3843,
+    "signed_dose": -0.3,
+    "prompt_id": "discovery_topic_01",
+    "weak_rank_score": 4,
+    "source_file": "rank-0/layer-L20/chunk_00000.jsonl.gz",
+    "status": "unconfirmed_weak_screen_candidate"
+  },
+  "primary_signed_dose": -0.3,
+  "selected_unix": 1793125485.5535572,
+  "status": "needs_blinded_behavior_review",
+  "primary_endpoint": "not supplied: this is an exploratory paired-output followup, not a significance test",
+  "no_automatic_confirmation": true,
+  "prompt_ids": [
+    "confirmation_viewpoint_01",
+    "confirmation_viewpoint_02",
+    "confirmation_identity_01",
+    "confirmation_identity_02",
+    "confirmation_agreeableness_01",
+    "confirmation_agreeableness_02",
+    "confirmation_uncertainty_01",
+    "confirmation_uncertainty_02",
+    "confirmation_attitude_01",
+    "confirmation_attitude_02",
+    "confirmation_instruction_01",
+    "confirmation_instruction_02",
+    "confirmation_language_01",
+    "confirmation_language_02",
+    "confirmation_topic_01",
+    "confirmation_topic_02"
+  ]
+}

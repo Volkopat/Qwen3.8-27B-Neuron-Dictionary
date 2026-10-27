@@ -1,0 +1,200 @@
+{
+  "rank": 0,
+  "phase": "wall_limit_or_stop",
+  "planned_total_neurons": 1114112,
+  "planned_total_combinations": 17825792,
+  "fully_screened_neurons": 15296,
+  "screen_completed_combinations": 244736,
+  "partial_chunk_combinations": 384,
+  "screen_batches_this_process": 1915,
+  "generated_screen_tokens_this_process": 17043441,
+  "screen_seconds_this_process": 18440.79895797925,
+  "candidate_batches_completed": 2,
+  "confirmed_discoveries": 0,
+  "updated_unix": 1793144410.919269,
+  "elapsed_seconds_this_process": 19036.814028252033,
+  "top_candidates": [
+    {
+      "layer": 0,
+      "neuron": 14044,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-0/layer-L0/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 60,
+      "neuron": 10058,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-0/layer-L60/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 46,
+      "neuron": 5001,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-0/layer-L46/chunk_00001.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 6,
+      "neuron": 554,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-0/layer-L6/chunk_00003.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 10,
+      "neuron": 6867,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 5,
+      "source_file": "rank-0/layer-L10/chunk_00007.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 20,
+      "neuron": 3843,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L20/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 32,
+      "neuron": 15794,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L32/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 0,
+      "neuron": 1728,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L0/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 0,
+      "neuron": 5562,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L0/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 2,
+      "neuron": 11635,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L2/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 2,
+      "neuron": 13316,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_agreeableness_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L2/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 4,
+      "neuron": 8974,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L4/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 8,
+      "neuron": 3878,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L8/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 8,
+      "neuron": 11424,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L8/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 10,
+      "neuron": 953,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L10/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 10,
+      "neuron": 1201,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L10/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 10,
+      "neuron": 12219,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L10/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 14,
+      "neuron": 3492,
+      "signed_dose": -0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L14/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 14,
+      "neuron": 275,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_topic_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L14/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    },
+    {
+      "layer": 16,
+      "neuron": 5944,
+      "signed_dose": 0.3,
+      "prompt_id": "discovery_uncertainty_01",
+      "weak_rank_score": 4,
+      "source_file": "rank-0/layer-L16/chunk_00000.jsonl.gz",
+      "status": "unconfirmed_weak_screen_candidate"
+    }
+  ],
+  "resumable": true,
+  "partial_file": "/data/models/experiments/neuron/behavior_campaigns/atlas-20261027-02/results/rank-0/layer-L28/chunk_00007.jsonl.gz.partial"
+}

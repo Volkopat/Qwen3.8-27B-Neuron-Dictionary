@@ -41,4 +41,15 @@ class ReleaseTests(unittest.TestCase):
             p=root/'data/model_metadata.json';obj=json.loads(p.read_text());obj['revision']='0'*40;p.write_text(json.dumps(obj))
             self.assertIn('model reference revision mismatch',audit.verify(root,check_hashes=False)['errors'])
 
+    def test_campaign_duplicate_key_detected(self):
+        def change(rows):rows[1]=dict(rows[0])
+        r=audit.verify(self.changed_copy('data/campaign_neurons.csv',change),check_hashes=False)
+        self.assertTrue(any('campaign index duplicate' in x for x in r['errors']))
+
+    def test_campaign_unearned_confirmation_detected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'release';shutil.copytree(ROOT,root,ignore=shutil.ignore_patterns('.git','__pycache__','.pytest_cache'))
+            p=root/'campaigns/2026-10-27/stop.json';obj=json.loads(p.read_text());obj['confirmed_discoveries']=1;p.write_text(json.dumps(obj))
+            self.assertTrue(any('unsupported confirmed-discovery claim' in x for x in audit.verify(root,check_hashes=False)['errors']))
+
 if __name__=='__main__':unittest.main()

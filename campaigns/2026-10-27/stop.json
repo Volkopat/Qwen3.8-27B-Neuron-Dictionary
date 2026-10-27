@@ -1,0 +1,24 @@
+{
+  "campaign_id": "atlas-20261027-02",
+  "stopped_by_user": true,
+  "workers": 2,
+  "gpu_type": "NVIDIA B200",
+  "model_id": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "started_unix": 1793125368.9989226,
+  "last_worker_progress_unix": 1793144410.919269,
+  "wall_seconds": 19041.92034649849,
+  "wall_hours": 5.289422318471803,
+  "approx_gpu_hours": 10.578844636943606,
+  "fully_screened_neurons": 30592,
+  "committed_screen_combinations": 489472,
+  "partial_screen_combinations": 384,
+  "generated_screen_tokens": 34373875,
+  "confirmed_discoveries": 0,
+  "candidate_followups": 4,
+  "process_returncodes": [
+    0,
+    0
+  ],
+  "stop_evidence": "controller reported workers_finished with returncodes [0,0]; both workers recorded wall_limit_or_stop"
+}

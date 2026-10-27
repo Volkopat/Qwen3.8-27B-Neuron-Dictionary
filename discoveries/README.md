@@ -2,11 +2,13 @@
 
 **Confirmed behavioral discoveries: 0. Archived candidates: 2.**
 
+**Campaign update:** the stopped [30,592-channel campaign](../docs/CAMPAIGN_FINDINGS.md) freshly replayed the first-person snake lead on the same prompt. It also tested four early finalists on held-out prompts, without establishing a new selective behavioral discovery. The two entries below retain their historical evidence; newer full-output evidence is in [campaign examples](../data/campaign_examples.json).
+
 An entry here describes an observable change in what the model does. The 704-channel token-effect catalog is supporting search data; its rows are not 704 behavioral discoveries.
 
 | Candidate | Location | Observable change | Status |
 |---|---|---|---|
-| First-person viewpoint in an object description | L20 N3432 | Asked to describe a snake, the unmodified model gives a factual description. A positive push produces first-person narration. | One discovery prompt, two generation modes; not freshly replayed or tested on new subjects. |
+| First-person viewpoint in an object description | L20 N3432 | Asked to describe a snake, the unmodified model gives a factual description. A positive push produces first-person narration. | Fresh same-prompt replay in the stopped campaign; new-subject confirmation remains untested. |
 | Tool-like output on identity questions | L32 N7845 | Identity questions elicit `_utilities` and parameter-like syntax in archived outputs. | Five identity prompts, truncated outputs, and a prefill-only hook; no demonstrated coherent tool use or stable persona. |
 
 ## Candidate 1: first-person viewpoint
@@ -43,7 +45,7 @@ The archived hook zeros its added offset at the first tensor position on every i
 4. Test both signs and a dose range. Separate prefill, decoding, and pulse interventions. Verify that the effect reverses when the intervention is removed.
 5. Score coherence, ordinary task performance, and behavior separately. Compare with a simple prompt instruction that requests the same behavior. An intervention need not outperform prompting to be interesting, but the comparison limits its practical significance.
 
-Only Qwen3.8-27B is eligible for new confirmation experiments. No new model experiment was run to create this register. No candidate is being promoted to a confirmed discovery on the strength of selected examples.
+Only Qwen3.8-27B is eligible for new confirmation experiments. This register's original extraction required no new model run; the subsequent campaign update is separately documented. No candidate is being promoted to a confirmed discovery on the strength of selected examples.
 
 ## Evidence
 

@@ -1,0 +1,9 @@
+{
+  "file": "qwen38-27b-behavior-campaign-20261027.tar.gz",
+  "sha256": "eee2181ffbf8374392f3d7847fe213fbd1a7cd412aeace7e7826c318509dc143",
+  "bytes": 76476621,
+  "file_count": 997,
+  "payload_bytes": 79096482,
+  "download_url": "https://github.com/Volkopat/Qwen3.8-27B-Neuron-Dictionary/releases/download/campaign-2026-10-27/qwen38-27b-behavior-campaign-20261027.tar.gz",
+  "release_url": "https://github.com/Volkopat/Qwen3.8-27B-Neuron-Dictionary/releases/tag/campaign-2026-10-27"
+}

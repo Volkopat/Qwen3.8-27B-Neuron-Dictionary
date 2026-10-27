@@ -1,0 +1,39 @@
+{
+  "campaign_id": "atlas-20261027-02",
+  "model_id": "Qwen/Qwen3.8-27B",
+  "reference_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "model_path": "/data/models/experiments/neuron/models/q38-27b",
+  "metadata_sha256": {
+    "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+  },
+  "workers": 2,
+  "wall_seconds": 43200,
+  "seed": 2701027,
+  "layers": 64,
+  "channels_per_layer": 17408,
+  "screen_signed_residual_doses": [-0.3, 0.3],
+  "screen_max_new_tokens": 96,
+  "preferred_neurons_per_batch": 64,
+  "pilot_max_new_tokens": 16,
+  "confirmation_max_new_tokens": 192,
+  "candidate_batches_per_worker": 2,
+  "candidate_minimum_weak_score": 2,
+  "candidate_status": "needs_blinded_behavior_review",
+  "confirmation_comparators": "same-batch sham, two independent nominally norm-matched random residual directions, one nominally norm-matched other channel; BF16 realized norms are not measured",
+  "confirmation_primary": "selected signed dose, continuous intervention; no automated semantic endpoint or statistical discovery claim",
+  "timing_followup": ["prefill_only", "decode_only", "pulse_8"],
+  "coverage_definition": "Every post-gating MLP down-projection input channel; attention heads and arbitrary residual directions are outside this census.",
+  "stop_behavior": "At the wall limit, finish at most the active batch, persist partial progress, and exit. Unvisited channels remain untested. Resume the same frozen campaign.",
+  "calibration_prompts": [
+    "Explain how a bicycle brake slows a wheel.",
+    "Summarize how a seed grows into a plant.",
+    "Explain why shadows change position during the day.",
+    "Give a short explanation of how a paper envelope is made.",
+    "Describe the steps involved in making a cup of tea.",
+    "Explain what a computer file is to a beginner.",
+    "Describe how a bridge supports the weight above it.",
+    "Explain the difference between a circle and a sphere."
+  ]
+}

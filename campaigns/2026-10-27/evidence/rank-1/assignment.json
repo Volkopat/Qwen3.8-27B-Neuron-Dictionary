@@ -1,0 +1,57 @@
+{
+  "layers": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ],
+  "neuron_order_seed": 2701027,
+  "prioritized_historical_leads": {
+    "20": [
+      3432
+    ],
+    "32": [
+      7845
+    ]
+  },
+  "neurons_per_chunk": 64,
+  "assigned_neurons": 557056,
+  "discovery_prompt_ids": [
+    "discovery_viewpoint_01",
+    "discovery_identity_01",
+    "discovery_agreeableness_01",
+    "discovery_uncertainty_01",
+    "discovery_attitude_01",
+    "discovery_instruction_01",
+    "discovery_language_01",
+    "discovery_topic_01"
+  ]
+}

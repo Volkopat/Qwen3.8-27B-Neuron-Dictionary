@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "archival data, arithmetic, joins, calibration, provenance and file integrity; GPU numerical agreement has its own explicit status",
-  "checks": 42541,
+  "checks": 42677,
   "errors": [],
   "dictionary_entries": 704,
   "effect_cells": 11264,
@@ -22,7 +22,7 @@
   },
   "max_concentration": 0.375,
   "max_abs_delta_nats": 12.131,
-  "hashed_files_checked": 56,
+  "hashed_files_checked": 101,
   "fresh_example_pairs_checked": 6,
   "gpu_replay_status": "COMPLETED_WITH_DIFFERENCES",
   "gpu_replay_comparison": {
@@ -32,5 +32,17 @@
     "median_abs_error_nats": 0.07459090042114258,
     "fraction_within_declared_tolerance": 0.7956321022727273,
     "declared_tolerance_nats": 0.15
+  },
+  "campaign_bundle": {
+    "status": "PASS",
+    "checks": 581324,
+    "errors": [],
+    "scope": "compact index, copied evidence, source fingerprints and audit receipts; full raw rows require audit_campaign.py",
+    "fully_screened_neurons": 30592,
+    "committed_combinations": 489472,
+    "partial_combinations": 384,
+    "confirmed_discoveries": 0,
+    "hashed_source_or_evidence_checks": 48,
+    "exact_selected_example_joins": 4
   }
 }

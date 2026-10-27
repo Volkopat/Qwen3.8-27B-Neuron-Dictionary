@@ -2,6 +2,14 @@
 
 Audit date: **2026-10-27**. This document separates archive validation from fresh execution.
 
+## Stopped campaign archive
+
+The subsequent two-B200 campaign was stopped at a checkpoint after 5.29 wall hours. All 996 payload-file hashes matched after downloading its 76,476,621-byte archive. A separate streaming audit verified **30,592 fully screened channels**, **489,472 committed intervention rows**, **384 partial rows excluded from committed coverage**, and the complete four-candidate followups, with no reported errors or warnings. See [the campaign verification](../campaigns/2026-10-27/verification.json) and [data card](../campaigns/2026-10-27/README.md).
+
+The raw archive audit is reproducible with `tools/audit_campaign.py`. The lighter `tools/verify_campaign_bundle.py`, also called by the main release verifier, checks the published CSV index, copied evidence, frozen-source fingerprints, selected-example joins, and accounting receipts. It does not silently treat the compact package as a re-execution or full semantic review of the archived outputs. The older dictionary replay's differences below remain unchanged.
+
+## Earlier probe archive
+
 | Check | Status |
 |---|---|
 | Unique dictionary keys and complete example joins | PASS: 704 entries, four layers |

@@ -1,62 +1,67 @@
 # Qwen3.8-27B-Neuron Dictionary
 
-**Exploratory intervention measurements for 704 sampled MLP channels.**
+A reproducible archive of neuron interventions in **Qwen/Qwen3.8-27B**: paired generated outputs, token IDs, calibration, controls, exact experimental source, and verification tools.
 
-A measurement archive for **Qwen/Qwen3.8-27B**, containing recorded token-level effects, bounded text excerpts, calibration arrays, and an audit. It is not yet a dictionary of substantive behavioral discoveries. The verified examples mostly change formatting, preamble, and response length; they do not demonstrate a coherent persona change or a newly controllable capability.
+**This release contains exploratory measurements, not a validated dictionary of neuron meanings. No new behavioral discovery is confirmed.**
 
-## What is here
+## Stopped behavioral campaign
 
-| Layer (zero-based) | Entries | Different paired excerpts |
-|---|---:|---:|
-| 12 | 256 | 43 |
-| 20 | 192 | 80 |
-| 32 | 128 | 30 |
-| 44 | 128 | 34 |
-| **Total** | **704** | **187 / 704 (26.6%)** |
+The two-B200 campaign was stopped for review after **5.29 hours**. It completed the same eight prompts in both directions for **30,592 neurons**, producing **489,472 committed intervention continuations**. Partial chunks are preserved separately. The target was 1,114,112 MLP channels; the released run is a partial census.
 
-“Different” means the stored text excerpts differ. It does **not** mean the factual answer changed. Each example uses its entry's largest measured probe, selected on the same probe battery; it is not held-out evidence.
+| Result | What the evidence supports |
+|---|---|
+| First-person snake narration at L20 N3432 | A fresh same-prompt replay changes a factual description to first-person narration. Generalization to other subjects is untested. |
+| Riddle/wordplay framing under several interventions | Ordinary requests sometimes receive fabricated riddle interpretations. Other-channel controls and broader output damage prevent a selective-neuron claim. |
+| Timing and dose effects | Some prompt-time or initial-pulse effects differ from decoding-only pushes. Large doses can produce empty or degraded outputs. |
+| Automatic candidate ranking | Surface phrase changes often receive high scores without a substantive behavioral change. Four early candidates received followups; later channels did not receive automatic held-out followups. |
 
-## Start here
+The run was stopped because continued exhaustive generation under that selection scheme was not justified for the goal of finding compelling behavioral changes. The full outputs are retained so others can inspect, re-score, or challenge that assessment.
 
-- [Behavioral discovery register](discoveries/README.md): two concrete archived candidates, complete available outputs, failure cases, and the tests still needed. **Zero candidates have passed behavioral confirmation.**
-- [Dictionary](data/dictionary.csv): one row per sampled channel, with measured effect summaries.
-- [All probe effects](data/probe_effects.csv): 11,264 archived channel–probe measurements.
-- [Paired examples](data/examples.csv): 704 bounded before/after excerpts.
-- [Probe definitions](data/probes.csv): exact prompts, target strings, and readout definitions.
-- [Audited findings](docs/FINDINGS.md), [method](docs/METHODS.md), [data card](docs/DATA_CARD.md), and [verification](docs/VERIFICATION.md).
+- **[Campaign findings and limitations](docs/CAMPAIGN_FINDINGS.md)**
+- **[Complete campaign data download](https://github.com/Volkopat/Qwen3.8-27B-Neuron-Dictionary/releases/tag/campaign-2026-10-27)** ? archive, SHA-256 receipt, source and per-file manifest.
+- **[Campaign data card and reproduction](campaigns/2026-10-27/README.md)**
+- **[Browsable campaign neuron index](data/campaign_neurons.csv)** ? coverage and descriptive output-change counts, without invented semantic labels.
+- **[Selected full-output evidence](data/campaign_examples.json)** ? paired examples and their controls, including failure cases.
 
-Use `python tools/browse.py --layer 20 --limit 10` to browse the data without loading a model.
+## Earlier probe archive
 
-## What a “press” means
+The earlier archive contains **704 sampled channels** from layers 12, 20, 32 and 44, **11,264 first-target-token effect measurements**, and 704 bounded paired excerpts. These are separate experiments with a different dose convention, not additional confirmed behavioral discoveries.
 
-At the input to an MLP's down projection, add a constant to one channel at every prompt position except the first, and continue adding it during cached generation. Historical runs used **4 × that channel's observed calibration maximum**. This is an additive offset, not a fourfold multiplication of the current activation.
+- [Earlier channel index](data/dictionary.csv), [all probe effects](data/probe_effects.csv), [paired excerpts](data/examples.csv), and [probe definitions](data/probes.csv).
+- [Earlier findings](docs/FINDINGS.md), [methods](docs/METHODS.md), [data card](docs/DATA_CARD.md), and [verification record](docs/VERIFICATION.md).
+- [Behavioral candidate register](discoveries/README.md).
 
-The recorded effect is `log P(target first token | prompt, baseline) − log P(target first token | prompt, intervention)`. **Negative values mean the intervention increased that particular token's probability.** This is a first-position readout, not full-answer probability or factual accuracy.
+All 18 checkpoint weight shards matched the pinned official revision. A fresh replay covered every earlier effect cell, but **20.44% exceeded the declared 0.15-nat tolerance**. Six selected example pairs reproduced all 12 short excerpts. Exact numerical reproduction of the earlier archive is not claimed.
 
-## Scope and evidence
+## Intervention and interpretation
 
-These are sampled entries from four of 64 text layers, not a complete map of the model. The “largest measured probe” is an incidental argmax, not a semantic neuron name. The model remains one checkpoint; results do not establish general laws of neural networks.
+The campaign adds a signed constant to one post-gating MLP channel at the input to its down projection. Each row uses the same prompt as a sham row in its batch; every batch has equal prompt lengths. Both signs use a nominal injected contribution norm of 0.3 times the layer's small frozen calibration residual norm. Full generation is capped at 96 tokens for screening and 192 for followups; capped continuations are not completed answers.
 
-Raw profiles and calibration arrays were recovered and checked against all 704 entries. All 18 checkpoint weight shards and the configuration metadata match the pinned official Qwen3.8-27B revision. Six selected example pairs were freshly replayed on a B200: all 12 archived excerpts matched. These selected examples are demonstrations, not a representative behavioral benchmark. See [verification](docs/VERIFICATION.md) for the whole-dictionary replay status and remaining provenance limits. The repository does not distribute model weights.
+Followups compare the selected channel with a sham, opposite sign, another channel and two seeded random residual directions. These match **nominal** linear contribution norms, not exactly realized BF16 perturbations. Such controls do not establish a calibrated statistical null. Large additive offsets test overdrive; they do not establish a channel's natural function.
 
-**Numerical replay caveat:** the full 11,264-cell B200 replay correlated with the archive at r=0.996, but 20.44% of cells exceeded the predeclared 0.15-nat tolerance. Both measurement versions are included. Strong effects retained direction; exact numerical reproduction is not claimed.
+The earlier archive instead uses a positive offset of four times each channel's observed calibration maximum and primarily measures the first target token at the first assistant position. Do not merge the two protocols or interpret text differences as answer accuracy.
 
-## Verify locally
+## Verify and inspect
 
 ```bash
 python -m pip install numpy
 python tools/verify_release.py
+python tools/verify_behavioral_candidates.py
+python tools/verify_campaign_bundle.py
 python -m unittest discover -s tests -v
+python tools/browse.py --layer 20 --limit 10
 ```
 
-Verification checks hashes, identities, cross-file joins, all 11,264 effect cells, summary arithmetic, calibration amplitudes, example flags, and generated summary counts. It does not silently treat archived observations as a fresh GPU replication.
+To independently audit the downloaded and extracted full campaign:
 
-## Reproduce an intervention
+```bash
+python tools/audit_campaign.py --root /path/to/extracted/campaign --output campaign-audit.json --entries campaign-neurons.csv
+```
 
-The new [probe runner](tools/reproduce_probe.py) records complete text, generated IDs, all configured EOS IDs, checkpoint fingerprints, and both sign conventions. Run it on a GPU host with the matching checkpoint. See [reproduction instructions](docs/REPRODUCE.md).
+An archive-integrity PASS establishes consistency of saved artifacts. It does not certify behavioral interpretation, mathematical novelty, or statistical significance. No model weights are distributed, and none of these verification commands loads a language model.
 
 ## Credits
 
-Inspired by [Lyra's neuron-explorer](https://github.com/lyramakesmusic/neuron-explorer) and [Goodfire's “Neural Networks Are Already Clean”](https://already-clean.goodfire.com/). The original explorer and its authors deserve credit for the starting tools and methodology. This repository packages the subsequent 27B experiment artifacts with newly written audit and browsing tools; it does not redistribute the original explorer code or UI.
+The research workspace began from [Lyra's neuron-explorer](https://github.com/lyramakesmusic/neuron-explorer); its authors deserve credit for the starting tools and methodology. [Goodfire's neuron research](https://already-clean.goodfire.com/) was an additional inspiration. This package does not redistribute the upstream explorer UI or tracked source. See [NOTICE.md](NOTICE.md) for provenance and licensing boundaries.
 
-For related causal-intervention work, see [ROME](https://arxiv.org/abs/2202.05262) and [instruction-following activation steering](https://arxiv.org/abs/2410.12877). This release makes no claim to have invented neuron steering.
+Related prior work includes [ROME](https://arxiv.org/abs/2202.05262) and [instruction-following activation steering](https://arxiv.org/abs/2410.12877). This release does not claim to have invented neuron steering.
